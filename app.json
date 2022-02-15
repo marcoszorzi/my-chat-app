@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "my-chat-app",
+    "name": "MyChat App",
     "slug": "my-chat-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.marcoszorzi.mychatapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.marcoszorzi.mychatapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
